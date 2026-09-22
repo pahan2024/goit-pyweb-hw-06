@@ -3,7 +3,7 @@ import random
 from datetime import datetime, timedelta
 from faker import Faker
 
-# Ініціалізуємо Faker з українською локалізацією
+# Ініціалізуємо Faker 
 fake = Faker('uk_UA')
 
 # Підключаємося до бази даних (якщо файлу немає, SQLite створить його автоматично)
